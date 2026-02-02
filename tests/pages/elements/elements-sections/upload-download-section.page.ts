@@ -1,4 +1,5 @@
-import { Page, Locator, expect, path } from '@playwright/test';
+import { Page, Locator, expect } from '@playwright/test';
+import path from 'path';
 
 const ENVIRONMENT = process.env.ENTORNO_UPLOAD_DOWNLOAD;
 const SAMPLE_FILE_PATTERN = /^sampleFile(?:\(\d+\))?\.jpeg$/;
